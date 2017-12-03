@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Play with mpv",
+  "version": "0.1.0",
+  "description": "Add context menu items to open URLs with mpv.",
+  "icons": {
+    "48": "content/icon.png",
+    "96": "content/logo.svg"
+  },
+  "applications": {
+    "gecko": {
+      "id": "play-with-mpv@sides.tv"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["contextMenus", "nativeMessaging"]
+}

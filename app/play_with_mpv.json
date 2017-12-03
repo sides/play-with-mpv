@@ -1,0 +1,7 @@
+{
+  "name": "play_with_mpv",
+  "description": "Play with mpv",
+  "path": "YOUR FULL PATH HERE/play-with-mpv/app/play_with_mpv.py",
+  "type": "stdio",
+  "allowed_extensions": ["play-with-mpv@sides.tv"]
+}
